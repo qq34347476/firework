@@ -1,0 +1,197 @@
+/* BentoSection.css */
+
+.basic_bento_section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .padding-global {
+    padding: 0 24px;
+  }
+  
+  .container-large {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .basic_bento_layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 24px;
+  }
+  
+  .card-border {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-border:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  }
+  
+  .bb_slider {
+    position: relative;
+    height: 100%;
+  }
+  
+  .gradient-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 32px;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .gradient-card.square {
+    aspect-ratio: 1;
+  }
+  
+  .gradient-card.dark {
+    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+    color: white;
+  }
+  
+  .enterprise_top_text-wr {
+    margin-bottom: 20px;
+  }
+  
+  .enterprise_top_text-wr.narrow {
+    margin-bottom: 0;
+  }
+  
+  .grad-card-logo {
+    height: 32px;
+    margin-bottom: 16px;
+    object-fit: contain;
+  }
+  
+  .text-size-xlarge {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+  
+  .text-size-large {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  
+  .text-size-small {
+    font-size: 14px;
+  }
+  
+  .text-weight-semibold {
+    font-weight: 600;
+  }
+  
+  .text-weight-bold {
+    font-weight: 700;
+  }
+  
+  .text-link-witharrow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .float-r {
+    float: right;
+  }
+  
+  .padding-0 {
+    padding: 0;
+  }
+  
+  .margin-0 {
+    margin: 0;
+  }
+  
+  .link-arrow {
+    height: 12px;
+    transition: transform 0.2s ease;
+  }
+  
+  .gradient-card:hover .link-arrow {
+    transform: translateX(4px);
+  }
+  
+  .enterprise_column-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .enterprise_card_border.is-2 {
+    flex: 1;
+  }
+  
+  .enterprise_card-2_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .hide {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .swiper-pagination-bullet {
+    background: #ccc;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #333;
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 992px) {
+    .basic_bento_layout {
+      grid-template-columns: 1fr;
+    }
+    
+    .enterprise_column-2 {
+      flex-direction: row;
+    }
+    
+    .enterprise_card_border.is-2 {
+      flex: 1;
+      min-height: 200px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .basic_bento_section {
+      padding: 60px 0;
+    }
+    
+    .padding-global {
+      padding: 0 16px;
+    }
+    
+    .gradient-card {
+      padding: 24px;
+    }
+    
+    .text-size-xlarge {
+      font-size: 18px;
+    }
+    
+    .text-size-large {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .enterprise_column-2 {
+      flex-direction: column;
+    }
+  }
+  

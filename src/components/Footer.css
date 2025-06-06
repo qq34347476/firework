@@ -1,0 +1,149 @@
+/* Footer.css */
+
+.footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 60px 0 30px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  .padding-global {
+    padding: 0 24px;
+  }
+  
+  .container-large {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer_links_layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .footer_links_group {
+    margin-bottom: 20px;
+  }
+  
+  .footer_links-group_title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .footer_links-group_title.is-pricing {
+    color: #2563eb;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .footer_links-group_title.is-pricing:hover {
+    text-decoration: underline;
+  }
+  
+  .footer_links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .footer_link {
+    color: #555;
+    text-decoration: none;
+    font-size:16px;
+    transition: color 0.2s ease;
+    }
+    
+    .footer_link:hover {
+    color: #2563eb;
+    text-decoration: underline;
+    }
+    
+    .footer_credits_layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #eaeaea;
+    }
+    
+    .footer_logo {
+    height: 32px;
+    margin-bottom: 16px;
+    }
+    
+    .footer_credits {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+    max-width: 280px;
+    }
+    
+    .footer_legal_links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+    }
+    
+    .footer_legal_link {
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+    }
+    
+    .footer_legal_link:hover {
+    color: #2563eb;
+    text-decoration: underline;
+    }
+    
+    .footer_social_links {
+    display: flex;
+    gap: 20px;
+    }
+    
+    .footer_social_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    transition: all 0.2s ease;
+    }
+    
+    .footer_social_link:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+    }
+    
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+    .footer_links_layout {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    }
+    
+    .footer_credits_layout {
+    flex-direction: column;
+    gap: 30px;
+    }
+    }
+    
+    @media (max-width: 480px) {
+    .footer_links_layout {
+    grid-template-columns: 1fr;
+    }
+    
+    .padding-global {
+    padding: 0 16px;
+    }
+    }
+  
