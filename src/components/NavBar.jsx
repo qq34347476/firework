@@ -98,14 +98,14 @@ const NavBar = () => {
                 className="nav_link w-variant-6c5a36d4-fb94-3a14-f3f1-62e8a56848cf">Partners</a>
             </nav>
           </div>
-          <div className="navbar_left_buttons-wr">
+          {/* <div className="navbar_left_buttons-wr">
             <a id="sign-in-link"
               href="https://api.firework.com/auth/business_auth/callback?redirect_to=https://business.firework.com/&amp;client=business"
               className="nav_link sign-in">Sign In</a>
             <a id="nav-btn-book-demo"
               href="https://firework.com/demo-request?utm_campaign=website-nav" className="button is-nav w-button">Book a
               Demo</a>
-          </div>
+          </div> */}
           <div id="w-node-_92c48947-d98a-4b7d-e09e-72ff8154026c-81540260" className="nav_burger_button">
             <a
               aria-label="Open Menu" data-w-id="92c48947-d98a-4b7d-e09e-72ff8154026d" href="#"
@@ -119,14 +119,14 @@ const NavBar = () => {
             <div className="nav_burger_list">
               <div className="nav_burger_content">
                 {/* ... burger menu navigation (similar to desktop nav) ... */}
-                <div className="nav_mobile_button">
+                {/* <div className="nav_mobile_button">
                   <a
                     href="https://api.firework.com/auth/business_auth/callback?redirect_to=https://business.firework.com/&amp;client=business"
                     className="button is-secondary">Sign in</a>
                   <a
                     href="https://firework.com/demo-request?utm_campaign=website-nav" className="button w-button">Book a
                     Demo</a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
