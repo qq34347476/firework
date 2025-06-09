@@ -264,7 +264,7 @@ const Navbar = () => {
                             </div>
 
                             {/* Partners Link */}
-                            <a href="https://firework.com/partnerships/" id="nav-partners-link" className="nav_link">Partners</a>
+                            <Link className="nav_link" to={'/solutions'}>Solutions</Link>
                             <Link className="nav_link" to={'/contact-us'} >Contact-Us</Link>
                         </nav>
                     </div>
