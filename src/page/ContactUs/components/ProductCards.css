@@ -1,0 +1,96 @@
+/* Bento box with link arrow 'bounce' animation */
+@keyframes bounce-left {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
+
+/* when parent element is hovered, apply animation to arrow element */
+.product-bento-link:hover .link-arrow {
+  animation: bounce-left 700ms ease-in-out infinite; 
+}
+
+/* 以下为示例，您需要从您的项目中找到这些类的实际定义 */
+.fw_product_cards {
+  /* 样式定义 */
+}
+
+.padding-global {
+  padding-left: 20px; /* 示例 */
+  padding-right: 20px; /* 示例 */
+}
+
+.container-large {
+  max-width: 1200px; /* 示例 */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center_layout {
+  text-align: center; /* 示例 */
+}
+
+.heading-style-h1 {
+  font-size: 2.5rem; /* 示例 */
+  font-weight: bold;
+}
+
+.bento-grid {
+  display: grid; /* 示例 */
+  gap: 1rem;
+}
+
+.bento-wrapper {
+  /* 样式定义 */
+}
+
+.bento-box-1, .bento-box-2, .bento-box-3, .bento-box-4, .bento-box-5 {
+  border: 1px solid #eee; /* 示例 */
+  padding: 1rem;
+}
+
+/* ... 为其他所有在 ProductCards.jsx 中使用的类名添加样式定义 ... */
+
+/* 例如： */
+.middle-content-pillar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.heading-style-h2 {
+  font-size: 2rem; /* 示例 */
+  margin-bottom: 0.5rem;
+}
+
+.heading-style-h6 {
+  font-size: 1rem; /* 示例 */
+  margin-bottom: 1rem;
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}
+
+.button.is-secondary.is-alternate.w-button {
+  background-color: #f0f0f0; /* 示例 */
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.ava-bento-graphic img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 继续添加所有其他需要的类定义 */
+  

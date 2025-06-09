@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -81,7 +80,6 @@ const Navbar = () => {
 
                             {/* Partners Link */}
                             <a href="https://firework.com/partnerships/" id="nav-partners-link" className="nav_link">Partners</a>
-                            <Link className="nav_link" to={'/contact-us'} >Contact-Us</Link>
                         </nav>
                     </div>
 

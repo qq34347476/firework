@@ -1,0 +1,142 @@
+/* 从HTML的<style>标签中提取的样式 */
+fieldset {
+  max-width: unset !important;
+  width: 100%;
+}
+
+.hs_firstname {
+  width: 50%;
+}
+
+/*
+.hs_firstname.hs-firstname.hs-fieldtype-text.field.hs-form-field {
+      width: 100%;
+}
+*/
+input.hs-input,
+select.hs-input {
+  width: 100% !important;
+  height: 2.5rem;
+  border: solid 1px #e1e4e8;
+  border-radius: .25rem;
+  padding: .25rem .5rem;
+  margin-bottom: .5rem;
+}
+
+input:not([type="submit"]),
+input::placeholder,
+select {
+  color: #000000 !important;
+}
+
+.hs_submit input.hs-button.primary.large {
+  grid-column-gap: .75rem;
+  grid-row-gap: .75rem;
+  border: 1px solid #006aff;
+  background-color: #006aff;
+  color: white;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+  transition: all .2s;
+  display: flex;
+}
+
+.hs_submit input.hs-button.primary.large:hover {
+  border: 1px solid #0060e5;
+  background-color: #0060e5;
+}
+
+.hs_submit input {
+  width: 100%;
+}
+
+label.hs-error-msg.hs-main-font-element {
+  font-size: .875rem;
+  font-weight: normal;
+  line-height: 1.2em;
+  color: #992626;
+}
+
+ul.no-list.hs-error-msgs.inputs-list {
+  padding-left: .5rem;
+}
+
+ul.no-list.hs-error-msgs.inputs-list li {
+  list-style-type: none;
+}
+
+/* .w-embed.w-script 样式通常用于脚本容器，在React中可能不需要特别处理，
+   因为脚本加载方式不同，但如果HubSpot脚本依赖它，则保留 */
+.w-embed.w-script {
+  width: 100% !important;
+}
+
+.hs_submit.hs-submit {
+  margin-top: 1rem;
+}
+
+.hs-error-msg {
+  color: #f55555 !important;
+}
+
+/* 确保原始HTML中的其他类名样式如果需要，也包含在这里 */
+/* 例如：.signup_section, .contact-us, .padding-global, 等等... */
+/* 这些类名看起来是布局和通用样式，它们应该在全局CSS或父组件的CSS中定义 */
+/* 为了这个组件的独立性，如果它们只用于这个表单，可以复制过来 */
+
+/* 以下是HTML中其他部分的类名，如果它们是特定于此表单的，请取消注释并调整 */
+/*
+.signup_section.contact-us {
+  ...
+}
+.padding-global {
+  ...
+}
+.signup_body {
+  ...
+}
+.signup_copy.contact-us {
+  ...
+}
+.signup_title.contact-us {
+  ...
+}
+.signup_bullets {
+  ...
+}
+.signup_form {
+  ...
+}
+.form_styles.w-embed {
+  ...
+}
+.w-richtext {
+  ...
+}
+.spacer-xsm {
+  ...
+}
+.text-size-tiny {
+  ...
+}
+.privacy-policy-link {
+  ...
+}
+.spacer-huge {
+  ...
+}
+*/
+
+/* HubSpot 表单本身会注入自己的结构和类名，
+   上面的CSS主要处理您在HTML中定义的包装器和自定义字段样式。
+   HubSpot表单的内部样式由其脚本控制或通过HubSpot平台配置。 */
+
+#hubspotFormContainer .hs-form-field label {
+    /* 示例：如果你想覆盖HubSpot标签的样式 */
+    /* color: #333; */
+}
