@@ -1,0 +1,242 @@
+/* Base Styles */
+.ava-live-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+
+.ava-live-section.loaded {
+  opacity: 1;
+}
+
+/* Background Image */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  z-index: -1;
+}
+
+/* Content Container */
+.content-container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* overflow: hidden; */
+  z-index: 1;
+}
+
+/* Animated Background */
+.animated-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+/* Floating AVA Images */
+.floating-ava-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.ava-image {
+  position: absolute;
+  z-index: 50;
+}
+
+.ava-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Content Styles */
+.main-content {
+  position: relative;
+  z-index: 10;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* Button Styles */
+.ava-button-container,
+.demo-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.nectar-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  font-size: 16.5px;
+  padding: 11px 50px;
+}
+
+.nectar-button:hover {
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Questions Section */
+.questions-section {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.questions-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.animated-text-container {
+  position: relative;
+  height: 40px;
+  margin-top: -10px;
+  text-align: center;
+}
+
+.animated-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  width: 100%;
+  text-align: center;
+}
+
+.animated-text.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* AVA Widget Styles */
+fw-ava {
+  font-size: 16.5px;
+  font-weight: 500;
+  color: #000000;
+  background-color: #FFFFFF;
+  border-color: #000000;
+  border-radius: 50px;
+}
+
+fw-ava:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  border-color: #000000;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .ava-image.female-two {
+    top: 70%;
+    left: -15%;
+  }
+  
+  .ava-image.male {
+    top: -20%;
+    left: -15%;
+  }
+  
+  .ava-image.female-one {
+    right: -6%;
+  }
+}
+
+@media (max-width: 768px) {
+  .ava-live-section {
+    padding: 40px 3% !important;
+  }
+  
+  .content-container {
+    padding: 25px 0;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .questions-section {
+    margin-top: 50px;
+  }
+  
+  .animated-text {
+    font-size: 16px !important;
+  }
+  
+  .nectar-button {
+    font-size: 14px !important;
+    padding: 7px 16px !important;
+  }
+  
+  fw-ava {
+    --fw-ava-font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem;
+  }
+  
+  .ava-image.female-two,
+  .ava-image.male {
+    left: -12%;
+  }
+  
+  .questions-title {
+    font-size: 1.2rem;
+  }
+  
+  .animated-text {
+    font-size: 14px !important;
+  }
+}

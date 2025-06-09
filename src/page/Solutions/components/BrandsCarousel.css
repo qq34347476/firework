@@ -1,0 +1,247 @@
+/* Base styles */
+.bg-firework-black {
+    background-color: #000000;
+  }
+  
+  .text-gray-400 {
+    color: rgba(156, 163, 175, 1);
+  }
+  
+  .bg-firework-pink {
+    background-color: #FF2D55;
+  }
+  
+  /* Container styles */
+  .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 640px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  @media (min-width: 1536px) {
+    .container {
+      max-width: 1536px;
+    }
+  }
+  
+  /* Responsive padding */
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Typography */
+  .text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .mb-16 {
+    margin-bottom: 4rem;
+  }
+  
+  /* Image effects */
+  .filter {
+    filter: var(--tw-filter);
+  }
+  
+  .brightness-75 {
+    --tw-filter: brightness(0.75);
+  }
+  
+  .brightness-100 {
+    --tw-filter: brightness(1);
+  }
+  
+  .grayscale {
+    --tw-filter: grayscale(100%);
+  }
+  
+  .grayscale-0 {
+    --tw-filter: grayscale(0);
+  }
+  
+  /* Transitions and transforms */
+  .transition-transform {
+    transition-property: transform;
+  }
+  
+  .transition-all {
+    transition-property: all;
+  }
+  
+  .transition-opacity {
+    transition-property: opacity;
+  }
+  
+  .duration-300 {
+    transition-duration: 300ms;
+  }
+  
+  .hover\:scale-105:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Layout utilities */
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-40 {
+    height: 10rem;
+  }
+  
+  .h-24 {
+    height: 6rem;
+  }
+  
+  .h-8 {
+    height: 2rem;
+  }
+  
+  .h-20 {
+    height: 5rem;
+  }
+  
+  .w-auto {
+    width: auto;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .overflow-visible {
+    overflow: visible;
+  }
+  
+  /* Swiper custom styles */
+  .swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Custom decorative line */
+  .w-px {
+    width: 1px;
+  }
+  
+  .opacity-0 {
+    opacity: 0;
+  }
+  
+  .opacity-100 {
+    opacity: 1;
+  }
+  
+  .left-1\/2 {
+    left: 50%;
+  }
+  
+  .transform {
+    transform: var(--tw-transform);
+  }
+  
+  .-translate-x-1\/2 {
+    --tw-transform: translateX(-50%);
+  }
+  
+  .-bottom-8 {
+    bottom: -2rem;
+  }
+  
+  .mt-20 {
+    margin-top: 5rem;
+  }
+  
+  .from-firework-pink {
+    --tw-gradient-from: #FF2D55;
+    --tw-gradient-to: rgba(255, 45, 85, 0);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  }
+  
+  .bg-gradient-to-b {
+    background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  }
+  
+  .to-transparent {
+    --tw-gradient-to: transparent;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 640px) {
+    .text-3xl {
+      font-size: 1.5rem;
+    }
+    
+    .h-40 {
+      height: 8rem;
+    }
+    
+    .h-24 {
+      height: 5rem;
+    }
+  }
+  

@@ -241,6 +241,7 @@ const Navbar = () => {
                     <div id="w-node-db86fc91-bb63-0208-5b8a-feea3951ed8d-3951ed88" className="nav_menu_wr">
                         <nav data-wf-nav-menu-variant="base" className="nav_menu">
                             <Link className="nav_link" to={'/'} >Home</Link>
+                            <Link className="nav_link" to={'/solutions'} >Solutions</Link>
                             <Link className="nav_link" to={'/shoppable-video'} >Shoppable-video</Link>
                             <Link className="nav_link" to={'/contact-us'} >Contact-Us</Link>
                         </nav>
