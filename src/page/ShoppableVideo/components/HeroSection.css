@@ -1,0 +1,91 @@
+.shp-vid-hero-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .hero_2025-video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hero-video {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+  
+  @media (min-width: 1280px) {
+    .hero-video {
+      width: 100vw;
+    }
+  }
+  
+  .shp-vid-hero-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 2rem;
+  }
+  
+  .hero-heading-container {
+    text-align: center;
+    max-width: 1200px;
+  }
+  
+  .hero-heading {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .shpvid-hero-btns {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .button {
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .is-secondary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .is-alternate {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .is-large {
+    font-size: 1.2rem;
+  }
+  
+  .no-wrap {
+    white-space: nowrap;
+  }
+  
+  .drop-shadow {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .text-color-white {
+    color: white;
+  }
+  

@@ -240,31 +240,8 @@ const Navbar = () => {
                     {/* Desktop Menu */}
                     <div id="w-node-db86fc91-bb63-0208-5b8a-feea3951ed8d-3951ed88" className="nav_menu_wr">
                         <nav data-wf-nav-menu-variant="base" className="nav_menu">
-                            {/* Products Dropdown */}
-                            <div
-                                data-delay="0"
-                                data-hover="true"
-                                id="nav-products-dropdown"
-                                className={`nav_dd w-dropdown`}
-                            >
-                                <div
-                                    className="nav_dd_toggle w-dropdown-toggle"
-                                    role="button"
-                                    tabIndex="0"
-                                >
-                                    <div>Products</div>
-                                    <div
-                                        className="nav_dd_icon w-embed"
-                                    >
-                                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fillRule="evenodd" clipRule="evenodd" d="M12.3977 16.1629C12.178 16.3826 11.8219 16.3826 11.6022 16.1629L5.86739 10.428C5.64772 10.2084 5.64772 9.85227 5.86739 9.63259L6.13256 9.36739C6.35222 9.14772 6.70838 9.14772 6.92805 9.36739L12 14.4393L17.0719 9.36739C17.2916 9.14772 17.6477 9.14772 17.8674 9.36739L18.1326 9.63259C18.3522 9.85227 18.3522 10.2084 18.1326 10.428L12.3977 16.1629Z" fill="currentcolor"></path>
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* Partners Link */}
-                            <a href="https://firework.com/partnerships/" id="nav-partners-link" className="nav_link">Partners</a>
+                            <Link className="nav_link" to={'/'} >Home</Link>
+                            <Link className="nav_link" to={'/shoppable-video'} >Shoppable-video</Link>
                             <Link className="nav_link" to={'/contact-us'} >Contact-Us</Link>
                         </nav>
                     </div>
