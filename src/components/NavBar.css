@@ -1,0 +1,18 @@
+
+.nav .nav_wrapper {
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, padding 0.3s ease-in-out;
+  /* 初始状态可能没有特殊背景或padding */
+}
+
+.nav.scrolled .nav_wrapper {
+  background-color: #f8f9fa; /* 浅灰色背景 */
+  border-radius: 20px;       /* 较大的圆角 */
+  padding: 8px 16px;         /* 示例padding，根据视觉调整 */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+/* 同时，确保 .nav.scrolled 本身背景是透明的，或者与页面背景一致，阴影可以放在 .nav.scrolled 上 */
+.nav.scrolled {
+  background-color: white; /* 或者 transparent，取决于页面滚动时的整体背景 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
