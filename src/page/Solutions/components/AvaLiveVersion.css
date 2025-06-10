@@ -72,7 +72,7 @@
   }
   
   /* Button Styles */
-  .nectar-button {
+  .buttons-container>.nectar-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -90,7 +90,7 @@
     padding: 11px 50px;
   }
   
-  .nectar-button:hover {
+  .buttons-container>.nectar-button:hover {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
   }
   
@@ -142,7 +142,7 @@
       font-size: 1.1rem;
     }
     
-    .nectar-button {
+    .buttons-container>.nectar-button {
       font-size: 14px;
       padding: 7px 16px;
     }
@@ -178,7 +178,7 @@
       gap: 15px;
     }
     
-    .nectar-button {
+    .buttons-container>.nectar-button {
       width: 100%;
     }
   }

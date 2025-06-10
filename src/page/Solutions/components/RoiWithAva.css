@@ -1,0 +1,138 @@
+/* RoiWithAva.css */
+.full-width-section {
+    width: 100%;
+    color: white;
+  }
+  
+  .row-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .title-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .title-section h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .stats-grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+  }
+  
+  .stat-card {
+    flex: 1;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  .stat-inner {
+    border: 5px solid #d5cdca;
+    border-radius: 35px;
+    padding: 10% 10% 5%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .stat-title {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+  }
+  
+  .stat-value {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1;
+    margin: 10px 0;
+  }
+  
+  .stat-description {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 15px 0 0;
+  }
+  
+  /* Animations */
+  .animate-fade-in-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+    animation-delay: calc(0.1s * var(--i));
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive design */
+  @media (max-width: 1024px) {
+    .stats-grid {
+      flex-wrap: wrap;
+    }
+    
+    .stat-card {
+      flex: 0 0 50%;
+      max-width: 50%;
+      margin-bottom: 30px;
+    }
+    
+    .stat-value {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .roi-with-ava {
+      padding: 5vw 5% !important;
+    }
+    
+    .title-section h2 {
+      font-size: 2rem;
+    }
+    
+    .stat-card {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    
+    .stat-inner {
+      padding: 15% 10% 10%;
+    }
+    
+    .stat-value {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .stat-inner {
+      padding: 20% 5% 15%;
+    }
+    
+    .stat-value {
+      font-size: 2rem;
+    }
+    
+    .stat-description {
+      font-size: 1rem;
+    }
+  }
+  

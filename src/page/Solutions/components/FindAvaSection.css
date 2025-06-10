@@ -1,0 +1,141 @@
+/* FindAvaSection.css */
+.full-width-section {
+    width: 100%;
+    position: relative;
+    color: white;
+  }
+  
+  .row-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .left-content, .right-content {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  .content-box {
+    background-color: #000000;
+    border: 3px solid #d5cdca;
+    border-radius: 20px;
+    padding: 50px;
+    margin-right: 15px;
+    height: 100%;
+  }
+  
+  .content-box h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    line-height: 1.2;
+  }
+  
+  .ava-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .ava-features li {
+    color: #ffffff;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px;
+    font-size: 1.1rem;
+  }
+  
+  .ava-features li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #d5cdca;
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  
+  .video-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .video-row {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .video-card {
+    flex: 0 0 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+    border: 3px solid #d5cdca;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  
+  .ava-video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .ava-video.center-aligned {
+    margin: 0 auto;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 1024px) {
+    .content-box {
+      padding: 40px;
+    }
+    
+    .content-box h2 {
+      font-size: 2.2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .left-content, .right-content {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding: 0 15px;
+      margin-bottom: 30px;
+    }
+    
+    .content-box {
+      margin-right: 0;
+      padding: 30px;
+    }
+    
+    .video-row {
+      flex-direction: column;
+    }
+    
+    .video-card {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .content-box h2 {
+      font-size: 1.8rem;
+    }
+    
+    .ava-features li {
+      font-size: 1rem;
+    }
+    
+    .video-grid {
+      gap: 20px;
+    }
+  }
+  
