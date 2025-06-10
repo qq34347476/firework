@@ -18,9 +18,10 @@ const HeroSection = () => {
           preload="auto"
         >
           <source 
-            src="https://marketing-cdn.fireworktv.com/marketing-site/shoppable-video/Shoppable-Video-Hero-v3.mp4" 
+            src="/static/videos/1.mp4" 
             type="video/mp4" 
           />
+          您的浏览器不支持HTML5视频
         </video>
       </div>
       <div className="shp-vid-hero-content text-color-white container-large">
