@@ -79,7 +79,7 @@ const Footer = () => {
             <img 
               src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/66eb0b5f4409fb8feda3979e_firework-logo-black.svg" 
               loading="lazy" 
-              alt="Firework logo" 
+              alt="CELL digital logo" 
               className="footer_logo" 
             />
 
@@ -109,7 +109,7 @@ const Footer = () => {
             <div className="footer_social_links">
               <a 
                 id="footer-linkedin-link" 
-                aria-label="Linkedin Firework profile" 
+                aria-label="Linkedin CELL digital profile" 
                 href="https://www.linkedin.com/company/fireworkhq/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -120,7 +120,7 @@ const Footer = () => {
               
               <a 
                 id="footer-instagram-link" 
-                aria-label="Instagram Firework profile" 
+                aria-label="Instagram CELL digital profile" 
                 href="https://www.instagram.com/fireworkhq/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -131,7 +131,7 @@ const Footer = () => {
               
               <a 
                 id="footer-x-link" 
-                aria-label="Twitter Firework profile" 
+                aria-label="Twitter CELL digital profile" 
                 href="https://twitter.com/FireworkHQ" 
                 target="_blank" 
                 rel="noopener noreferrer" 
@@ -142,7 +142,7 @@ const Footer = () => {
               
               <a 
                 id="footer-youtube-link" 
-                aria-label="Youtube Firework channel" 
+                aria-label="Youtube CELL digital channel" 
                 href="https://www.youtube.com/@FireworkHQ" 
                 target="_blank" 
                 rel="noopener noreferrer" 

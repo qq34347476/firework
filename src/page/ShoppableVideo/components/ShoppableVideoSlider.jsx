@@ -71,7 +71,7 @@ const ShoppableVideoSlider = () => {
     <section className="large-videos-slider-section">
       <div className="w-layout-blockcontainer container-large w-container">
         <div className="padding-global">
-          <h3 className="landing-page-section-heading light">Firework in Action</h3>
+          <h3 className="landing-page-section-heading light">CELL digital in Action</h3>
           <Swiper
             modules={[Navigation, Pagination, Autoplay]} // 注册模块
             spaceBetween={0} // 根据需要调整幻灯片之间的距离

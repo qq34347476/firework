@@ -26,7 +26,7 @@ const ProductCarousel = () => {
       link: "https://firework.com/ai-solutions",
       imageSrc: "static/picture/67fe884cf372efbf2922f1a8_ai_solutions-slide.avif",
       imageSrcSet: "https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fe884cf372efbf2922f1a8_AI_solutions-slide-p-500.avif 500w, https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fe884cf372efbf2922f1a8_AI_solutions-slide.avif 1218w",
-      alt: "Firework's AI Video Assistant (AVA) answering customer questions and giving product advice through chat and video conversations."
+      alt: "CELL digital's AI Video Assistant (AVA) answering customer questions and giving product advice through chat and video conversations."
     },
     {
       id: 2,
@@ -42,7 +42,7 @@ const ProductCarousel = () => {
       link: "https://firework.com/solutions/digital-showroom/",
       imageSrc: "static/picture/67fe906f69cf9b70556fdbd6_videoshowroom-slide.avif",
       imageSrcSet: "https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fe906f69cf9b70556fdbd6_videoshowroom-slide-p-500.avif 500w, https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fe906f69cf9b70556fdbd6_videoshowroom-slide.avif 1220w",
-      alt: "Firework's video showroom educates and inspires while reducing friction to buy"
+      alt: "CELL digital's video showroom educates and inspires while reducing friction to buy"
     },
     {
       id: 4,
@@ -50,7 +50,7 @@ const ProductCarousel = () => {
       link: "https://firework.com/solutions/one-to-one-virtual-shopping/",
       imageSrc: "static/picture/67fe906f3255c3b96d07655e_videochat-slide.avif",
       imageSrcSet: "https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fe906f3255c3b96d07655e_videochat-slide-p-500.avif 500w, https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fe906f3255c3b96d07655e_videochat-slide.avif 1220w",
-      alt: "Firework live 1:1 chat brings the in-store experience and human connection online"
+      alt: "CELL digital live 1:1 chat brings the in-store experience and human connection online"
     }
   ];
 
@@ -59,7 +59,7 @@ const ProductCarousel = () => {
       <div className="padding-global">
         <div className="container-large">
           <div className="container-small text-align-center">
-            <h2 className="heading-style-h2">Supercharge your site with Firework, the all-in-one-platform</h2>
+            <h2 className="heading-style-h2">Supercharge your site with CELL digital, the all-in-one-platform</h2>
           </div>
           <div className="slider_component is-product">
             <div className="slider_pn-wr">

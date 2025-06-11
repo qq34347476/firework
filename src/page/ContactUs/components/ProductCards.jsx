@@ -35,7 +35,7 @@ const ProductCards = () => {
               <div className="middle-content-pillar text-align-center">
                 <h3 className="heading-style-h2">AI Video Assistant</h3>
                 <div className="heading-style-h6 text-align-center font-weight-normal">AI sales assistant gives tailored advice, anticipating customer needs.</div>
-                <a href="https://firework.com/ai-solutions" className="button is-secondary is-alternate w-button">Explore Firework AI</a>
+                <a href="https://firework.com/ai-solutions" className="button is-secondary is-alternate w-button">Explore CELL digital AI</a>
               </div>
               <div className="ava-bento-graphic">
                 <img src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67d1d55140b8927279c35da7_ava-example-prod-demo.webp" loading="lazy" alt="" className="ava-bento-img left" />

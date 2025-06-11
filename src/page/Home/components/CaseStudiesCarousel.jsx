@@ -57,7 +57,7 @@ const CaseStudies = () => {
       id: "musely",
       alt: "Musely case study",
       imgSrc: "static/picture/68014fbcc5040f0f10264f90_musely-thumbnail.avif",
-      title: "Musely: Elevating the Cancellation Flow with Firework's AVA",
+      title: "Musely: Elevating the Cancellation Flow with CELL digital's AVA",
       link: "/customer-stories/musely-success-story"
     },
     {
@@ -78,7 +78,7 @@ const CaseStudies = () => {
       id: "heinz",
       alt: "Heinz case study",
       imgSrc: "static/picture/671ca4861a180b5b9cd56a44_cases_img-5.avif",
-      title: "How Heinz Supercharged Customer Engagement With Firework",
+      title: "How Heinz Supercharged Customer Engagement With CELL digital",
       link: "/customer-stories/heinz-success-story"
     },
     {

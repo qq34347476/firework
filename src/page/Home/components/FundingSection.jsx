@@ -33,7 +33,7 @@ const FundingSection = () => {
                 <img
                   src="static/picture/68012b0b466c7e5c60051b09_d35ef99c810c8352e7e902a94dc49cc6_funding_graphic-2025.avif"
                   loading="lazy"
-                  alt="A graph showing the progression and funding support of the Firework organization."
+                  alt="A graph showing the progression and funding support of the CELL digital organization."
                   className="innovation_image"
                   data-w-id="3651a859-7f9e-6c9d-d1f3-cb38087b0e9b"
                 />

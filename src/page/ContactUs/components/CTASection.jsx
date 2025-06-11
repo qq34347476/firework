@@ -13,7 +13,7 @@ const CTASection = () => {
           <div className="cta_layout">
             <h2 className="heading-style-h1">Boost engagement on your website through video</h2>
             <div className="padding-bottom padding-small"></div>
-            <h3 className="heading-style-h6">Find out how Firework can power your business forward</h3>
+            <h3 className="heading-style-h6">Find out how CELL digital can power your business forward</h3>
             <div className="button-group is-cta">
               <a 
                 id="btn-footer-preview-on-your-site" 

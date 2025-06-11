@@ -23,7 +23,7 @@ const BasicBentoSection = () => {
     {
       id: 1,
       logo: "static/picture/67ed976c8fbd535cd827f148_logo.svg",
-      title: "Firework Raises $150 Million in Funding Round Led by Softbank",
+      title: "CELL digital Raises $150 Million in Funding Round Led by Softbank",
       link: "https://www.wsj.com/articles/shoppable-video-startup-firework-raises-150-million-in-funding-round-led-by-softbank-11653386401",
       alt: "Wall Street Journal logo"
     },
@@ -31,7 +31,7 @@ const BasicBentoSection = () => {
       id: 2,
       logo: "static/picture/67f69cd45f0500cfbd4db785_chain-store-ago-logo-white.webp",
       logoSrcSet: "https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67f69cd45f0500cfbd4db785_chain-store-ago-logo-white-p-500.webp 500w, static/picture/67f69cd45f0500cfbd4db785_chain-store-ago-logo-white.webp 1029w",
-      title: "Victoria’s Secret enhances online shopping experience with Firework",
+      title: "Victoria’s Secret enhances online shopping experience with CELL digital",
       link: "https://chainstoreage.com/victorias-secret-enhance-online-shopping-experience-interactive-video",
       alt: "Chain Store Age logo"
     },
@@ -55,16 +55,16 @@ const BasicBentoSection = () => {
       id: 2,
       image: "static/picture/6716903e484c7fb65c648e6f_enterprise_card-2-2.avif",
       srcSet: "https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/6716903e484c7fb65c648e6f_enterprise_card-2-2-p-500.avif 500w, https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/6716903e484c7fb65c648e6f_enterprise_card-2-2.avif 1125w",
-      alt: "Photo of the building with Nasdaq logo and accompanied with text: Nasdaq congratulates Firework on their $150M series led by Softbank"
+      alt: "Photo of the building with Nasdaq logo and accompanied with text: Nasdaq congratulates CELL digital on their $150M series led by Softbank"
     }
   ];
 
   // 底部卡片数据
   const bottomCard = {
     logo: "static/picture/67ed98cf245871481d07da16_f%26s-award-2024-2025.webp",
-    title: "Firework wins Frost & Sullivan Competitive Strategy Leadership Award two years in a row",
+    title: "CELL digital wins Frost & Sullivan Competitive Strategy Leadership Award two years in a row",
     link: "https://martech360.com/marketing-automation/e-commerce/firework-honored-with-2024-frost-sullivan-competitive-strategy-leadership-award/",
-    alt: "Firework is a two-time consecutive Frost & Sullivan Best Practices Award winner"
+    alt: "CELL digital is a two-time consecutive Frost & Sullivan Best Practices Award winner"
   };
 
   return (

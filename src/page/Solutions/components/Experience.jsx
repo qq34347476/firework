@@ -6,7 +6,7 @@ const Experience = () => {
   const [loaded, setLoaded] = useState(false);
 
   const questions = [
-    "What products does Firework sell?",
+    "What products does CELL digital sell?",
     "How does AVA learn information?",
     "Which industries are AVA built for?"
   ];

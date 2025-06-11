@@ -9,7 +9,7 @@ const MetricsFooterCTA = () => {
           {/* Left Column - CTA Section */}
           <div className="metrics-footer-cta-col w-col w-col-6 w-col-stack w-col-small-small-stack w-col-tiny-tiny-stack">
             <h3 className="landing-page-section-heading light text-align-left plg-metrics-section-heading">
-              Outperform expectations. Achieve remarkable results with Firework
+              Outperform expectations. Achieve remarkable results with CELL digital
             </h3>
             
             <div className="metrics-footer-cta-btns">
@@ -43,7 +43,7 @@ const MetricsFooterCTA = () => {
                 <div>
                   <p className="plg-metric-section-metric-heading">Conversion Rate</p>
                   <p className="plg-metric-section-metric-body">
-                    vs visitors who didn't interact with Firework livestream or short videos.
+                    vs visitors who didn't interact with CELL digital livestream or short videos.
                   </p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const MetricsFooterCTA = () => {
                 <div>
                   <p className="plg-metric-section-metric-heading">NPS</p>
                   <p className="plg-metric-section-metric-body">
-                    vs visitors who didn't interact with Firework livestream or short videos.
+                    vs visitors who didn't interact with CELL digital livestream or short videos.
                   </p>
                 </div>
               </div>

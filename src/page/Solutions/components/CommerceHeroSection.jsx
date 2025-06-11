@@ -107,7 +107,7 @@ const CommerceHero = () => {
                                   {/* Subheading */}
                                   <p style={{ fontSize: '22px', color: '#000000', textAlign: 'left' }}
                                      className="vc_custom_heading vc_do_custom_heading wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp animated wpb_start_animation">
-                                    Find out how Firework can power your business forward.
+                                    Find out how CELL digital can power your business forward.
                                   </p>
 
                                   {/* Buttons */}

@@ -24,7 +24,7 @@ const KeyBenefitsSection = () => {
 
   return (
     <section className="key-benefits-section">
-      <h3 className="landing-page-section-heading">Maximize your brand's potential with Firework</h3>
+      <h3 className="landing-page-section-heading">Maximize your brand's potential with CELL digital</h3>
       <div className="w-layout-blockcontainer container-large key-features-cards-container w-container">
         <div className="padding-global">
           <div className="w-layout-blockcontainer feature-card-container _w-full w-container">
@@ -52,7 +52,7 @@ const KeyBenefitsSection = () => {
                 <h4 className="feature-card-title small">Seamless Integration Across Your Store</h4>
                 <div className="ftcard-body-bullets">
                   <p className="ftcard-body image-right-10">
-                    Use Firework's Social Importer to sync content from TikTok and Instagram, boosting visibility and reaching new customers.
+                    Use CELL digital's Social Importer to sync content from TikTok and Instagram, boosting visibility and reaching new customers.
                   </p>
                 </div>
               </div>

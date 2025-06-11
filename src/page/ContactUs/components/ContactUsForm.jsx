@@ -61,7 +61,7 @@ const ContactUsForm = () => {
             </div>
             <div className="spacer-xsm"></div>
             <p className="text-size-tiny">
-              By submitting this form, you agree to Firework's{' '}
+              By submitting this form, you agree to CELL digital's{' '}
               <a href="https://firework.com/legal/privacypolicy" className="privacy-policy-link">
                 privacy policy
               </a>{' '}

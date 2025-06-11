@@ -114,7 +114,7 @@ const IntegrationSwiper = () => {
                   <SwiperSlide>
                     <img
                       src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fd3193891bb9319c485d45_integrations_Website.avif"
-                      alt="A Firework Carousel shoppable video section on a webpage"
+                      alt="A CELL digital Carousel shoppable video section on a webpage"
                       className="integrations_image"
                     />
                   </SwiperSlide>
@@ -128,14 +128,14 @@ const IntegrationSwiper = () => {
                   <SwiperSlide>
                     <img
                       src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fd325697a12752794836cb_integrations_Mibile_App.avif"
-                      alt="Firework videos used directly in a native mobile application"
+                      alt="CELL digital videos used directly in a native mobile application"
                       className="integrations_image"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67ffc6c73caa487c02598f34_integrations_Package.avif"
-                      alt="Firework videos demonstrating how to unbox products"
+                      alt="CELL digital videos demonstrating how to unbox products"
                       className="integrations_image"
                     />
                   </SwiperSlide>
@@ -149,7 +149,7 @@ const IntegrationSwiper = () => {
                   <SwiperSlide>
                     <img
                       src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fd31930b76c93bc263d3a8_integrations_Social.avif"
-                      alt="Firework videos integrated with social platforms like Instagram, TikTok and more."
+                      alt="CELL digital videos integrated with social platforms like Instagram, TikTok and more."
                       className="integrations_image"
                     />
                   </SwiperSlide>
@@ -163,7 +163,7 @@ const IntegrationSwiper = () => {
                   <SwiperSlide>
                     <img
                       src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fe81a4fbc1151b99c7e98d_integrations_Publishers.avif"
-                      alt="Firework makes perfect sense for publishers to showcase their products"
+                      alt="CELL digital makes perfect sense for publishers to showcase their products"
                       className="integrations_image"
                     />
                   </SwiperSlide>

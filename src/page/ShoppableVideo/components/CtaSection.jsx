@@ -9,7 +9,7 @@ const CtaSection = () => {
             <div className="spacer-medium"></div>
             <div className="container-tiny">
               <h1 className="heading-style-h3 text-align-center text-color-white">
-                Discover all features of Firework Shoppable Video
+                Discover all features of CELL digital Shoppable Video
               </h1>
             </div>
             <div className="spacer-large"></div>

@@ -63,7 +63,7 @@ const BentoTestimonials = () => {
           >
             <div className="bento-cell-content">
               <p className="bento-heading">11x higher</p>
-              <p className="bento-body-tight">Conversion rate among user who interacted with Firework Videos</p>
+              <p className="bento-body-tight">Conversion rate among user who interacted with CELL digital Videos</p>
             </div>
             <img src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/673f5ff693086ddfa3942a01_logo-natural-life.webp" loading="lazy" alt="Natural Life logo"/>
           </div>
@@ -101,7 +101,7 @@ const BentoTestimonials = () => {
           >
             <div className="bento-cell-content">
               <p className="bento-heading">5000+</p>
-              <p className="bento-body-tight">Active viewers during the Firework live stream</p>
+              <p className="bento-body-tight">Active viewers during the CELL digital live stream</p>
             </div>
             <img src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/673f6ddc634cb4e61b796014_logo-heinz-dark.webp" loading="lazy" alt=""/>
           </div>
@@ -158,7 +158,7 @@ const BentoTestimonials = () => {
             }}
           >
             <div>
-              <p className="bento-quote">"Our experience with Firework has been great. We use Firework for UGC videos on our product pages as well as using it for livestreams when we do product launches."</p>
+              <p className="bento-quote">"Our experience with CELL digital has been great. We use CELL digital for UGC videos on our product pages as well as using it for livestreams when we do product launches."</p>
             </div>
             <div className="div-block-2">
               <img src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/673f7cb00733e116af99bb74_logo-cymbiotika.webp" loading="lazy" alt="Cymbiotika company logo"/>

@@ -5,7 +5,7 @@ import './StandardCTA.css';
 const StandardCTA = ({
   variant = 'blackout',
   heading = 'Boost engagement on your website through video',
-  subheading = 'Find out how Firework can power your business forward',
+  subheading = 'Find out how CELL digital can power your business forward',
   primaryButton = {
     text: 'Book a Demo',
     url: 'https://firework.com/demo-request?utm_campaign=home-footer-cta',

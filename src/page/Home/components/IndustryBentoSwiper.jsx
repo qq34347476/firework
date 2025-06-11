@@ -61,7 +61,7 @@ const IndustryBentoSwiper = () => {
             id: 'grocery',
             title: 'Grocery',
             testimonial: {
-                quote: '"With Firework, we saw conversion rates of the featured special occasion meals at 300% greater than our traditional digital advertising results."',
+                quote: '"With CELL digital, we saw conversion rates of the featured special occasion meals at 300% greater than our traditional digital advertising results."',
                 author: 'Kevin Miller,',
                 position: 'Chief Marketing Officer, Fresh Market',
                 link: '/customer-stories/the-fresh-market-success-story'
