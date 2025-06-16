@@ -1,0 +1,171 @@
+/* Main container styling */
+.wpb_row.vc_row-fluid {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .has-global-section {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  /* Background layers */
+  .row-bg-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+  
+  .row-bg-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .row-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .viewport-desktop {
+    display: block;
+  }
+  
+  .using-bg-color {
+    background-color: #000000;
+  }
+  
+  /* Column layout */
+  .row_col_wrap_12,
+  .row_col_wrap_12_inner {
+    position: relative;
+  }
+  
+  .vc_column-inner {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Text column styling */
+  .instance-85 {
+    background-color: #ffffff;
+  }
+  
+  .wpb_text_column p {
+    margin: 0;
+  }
+  
+  /* Button styling */
+  .nectar-button {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    border-width: 2px;
+    border-style: solid;
+    -webkit-appearance: none;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 12px;
+    padding: 18px 36px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  
+  .nectar-button.small {
+    padding: 12px 24px;
+    font-size: 11px;
+  }
+  
+  .nectar-button.see-through {
+    background-color: transparent;
+  }
+  
+  .nectar-button.regular {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  /* Video styling */
+  .nectar_video_player_self_hosted {
+    position: relative;
+    display: block;
+  }
+  
+  .wpb_video_wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .wpb_video_wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1000px) {
+    .vc_col-sm-6 {
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    .reverse_columns_column_phone .row_col_wrap_12_inner {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    
+    .left_padding_desktop_10pct {
+      padding-left: 5% !important;
+    }
+    
+    .right_padding_desktop_10pct {
+      padding-right: 5% !important;
+    }
+  }
+  
+  @media (max-width: 690px) {
+    .wpb_text_column p span {
+      font-size: 32px !important;
+    }
+    
+    .vc_custom_heading {
+      font-size: 18px !important;
+    }
+    
+    .button-container {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .button-container a {
+      margin-left: 0 !important;
+      margin-top: 10px;
+    }
+    
+    .button-container a:first-child {
+      margin-top: 0;
+    }
+  }
+  

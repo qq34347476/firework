@@ -78,12 +78,12 @@ const FlowerAnimation = () => {
   const resizeTimeoutRef = useRef(null);
 
   const pedalData = [
-    { id: 1, label: "Influencer Generated Content", video: "https://marketing-cdn.fireworktv.com/marketing-site/fw_flower/IGC.mp4" },
-    { id: 2, label: "Brand Generated Content", video: "https://marketing-cdn.fireworktv.com/marketing-site/fw_flower/BGC.mp4" },
-    { id: 3, label: "User Generated Content", video: "https://marketing-cdn.fireworktv.com/marketing-site/fw_flower/UGC.mp4" },
-    { id: 4, label: "AI Generated Content", video: "https://marketing-cdn.fireworktv.com/marketing-site/fw_flower/AI-GC-v2.mp4" },
-    { id: 5, label: "Store Associate Generated Content", video: "https://marketing-cdn.fireworktv.com/marketing-site/fw_flower/SAGC-v2.mp4" },
-    { id: 6, label: "Merchant Generated Content", video: "https://marketing-cdn.fireworktv.com/marketing-site/fw_flower/MGC-v2.mp4" }
+    { id: 1, label: "Influencer Generated Content", video: "/static/videos/Influencer GeneratedContent.mp4" },
+    { id: 2, label: "Brand Generated Content", video: "/static/videos/Brand GeneratedContent.mp4" },
+    { id: 3, label: "User Generated Content", video: "/static/videos/User GeneratedContent.mp4" },
+    { id: 4, label: "AI Generated Content", video: "/static/videos/User GeneratedContent.mp4" },
+    { id: 5, label: "Store Associate Generated Content", video: "/static/videos/Store AssociateGenerated Content).mp4" },
+    { id: 6, label: "Merchant Generated Content", video: "/static/videos/Merchant GeneratedContent.mp4" }
   ];
 
   // 设置活动花瓣
