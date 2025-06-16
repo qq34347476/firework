@@ -81,7 +81,7 @@ const FlowerAnimation = () => {
     { id: 1, label: "Influencer Generated Content", video: "/static/videos/Influencer GeneratedContent.mp4" },
     { id: 2, label: "Brand Generated Content", video: "/static/videos/Brand GeneratedContent.mp4" },
     { id: 3, label: "User Generated Content", video: "/static/videos/User GeneratedContent.mp4" },
-    { id: 4, label: "AI Generated Content", video: "/static/videos/User GeneratedContent.mp4" },
+    { id: 4, label: "AI Generated Content", video: "/static/videos/Interactive Experience Design.mp4" },
     { id: 5, label: "Store Associate Generated Content", video: "/static/videos/Store AssociateGenerated Content).mp4" },
     { id: 6, label: "Merchant Generated Content", video: "/static/videos/Merchant GeneratedContent.mp4" }
   ];
