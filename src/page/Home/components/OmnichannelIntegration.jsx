@@ -1,28 +1,25 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel, Keyboard, Navigation, Pagination, Controller } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-
-// 引入 Swiper 的样式
-import 'swiper/css';
 
 const slideTitles = [
-  "Website",
+  "Social",
   "Email",
   "Mobile",
   "Packaging",
   "SMS",
-  "Social",
+  // "Social",
   "In-store",
-  "Publisher",
+  "Publisher Partners",
   "Retailer",
 ];
 
 const IntegrationSwiper = () => {
   const [textSwiper, setTextSwiper] = useState(null);
   const [imageSwiper, setImageSwiper] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
     if (textSwiper && imageSwiper) {
@@ -32,11 +29,18 @@ const IntegrationSwiper = () => {
   }, [textSwiper, imageSwiper]);
 
   const handleSlideChange = (swiper) => {
+    setActiveIndex(swiper.activeIndex);
     setTimeout(() => {
       if (swiper.mousewheel) {
         swiper.mousewheel.releaseOnEdges = false;
       }
     }, 500);
+  };
+
+  const handleBulletClick = (index) => {
+    if (textSwiper) {
+      textSwiper.slideTo(index);
+    }
   };
 
   const handleReachEnd = (swiper) => {
@@ -93,83 +97,66 @@ const IntegrationSwiper = () => {
                   onSlideChange={(swiper) => handleSlideChange(swiper)}
                   onReachEnd={(swiper) => handleReachEnd(swiper)}
                   onReachBeginning={(swiper) => handleReachBeginning(swiper)}
-                  // breakpoints={{
-                  //   992: {
-                  //     creativeEffect: {
-                  //       prev: {
-                  //         translate: [400, 0, 800],
-                  //         opacity: 0,
-                  //       },
-                  //       next: {
-                  //         translate: [-50, 0, -100],
-                  //         opacity: 0.6,
-                  //       },
-                  //       active: {
-                  //         translate: [0, 0, 0],
-                  //         opacity: 1,
-                  //       },
-                  //                        },
-                  // }}
                   className="swiper is-integration-image">
                   <SwiperSlide>
                     <img
-                      src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fd3193891bb9319c485d45_integrations_Website.avif"
+                      src="/static/picture/Social.png"
                       alt="A CELL digital Carousel shoppable video section on a webpage"
                       className="integrations_image"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67ffc6c697ac1349e71ce83d_integrations_Email.avif"
+                      src="/static/picture/Email.png"
                       alt="Embed shoppable videos directly into emails"
                       className="integrations_image"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fd325697a12752794836cb_integrations_Mibile_App.avif"
+                      src="/static/picture/Mobile.png"
                       alt="CELL digital videos used directly in a native mobile application"
                       className="integrations_image"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67ffc6c73caa487c02598f34_integrations_Package.avif"
+                      src="/static/picture/Packaging.png"
                       alt="CELL digital videos demonstrating how to unbox products"
                       className="integrations_image"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fd3192ad45e4bd7feedc93_integrations_SMS.avif"
+                      src="/static/picture/SMS.png"
                       alt="Shoppable Videos embedded directly in an SMS text conversation."
                       className="integrations_image"
                     />
                   </SwiperSlide>
-                  <SwiperSlide>
+                  {/* <SwiperSlide>
                     <img
-                      src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fd31930b76c93bc263d3a8_integrations_Social.avif"
+                      src="/static/picture/SMS.png"
                       alt="CELL digital videos integrated with social platforms like Instagram, TikTok and more."
                       className="integrations_image"
                     />
-                  </SwiperSlide>
+                  </SwiperSlide> */}
                   <SwiperSlide>
                     <img
-                      src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/68010392a952c3d42e2ce9a4_integrations_Instore.avif"
+                      src="/static/picture/In-Store.png"
                       alt="Use QR codes to bring additional value to in-store experiences."
                       className="integrations_image"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fe81a4fbc1151b99c7e98d_integrations_Publishers.avif"
+                      src="/static/picture/Publisher Partners.png"
                       alt="CELL digital makes perfect sense for publishers to showcase their products"
                       className="integrations_image"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://cdn.prod.website-files.com/66a003afc59794bcf70c2b34/67fd4b834bea12a3ab3cccba_integrations_Retailers.webp"
+                      src="/static/picture/Retailers.png"
                       alt="Embed video across retailer websites to drive discovery, education, and conversions directly at the point of sale."
                       className="integrations_image"
                     />
@@ -190,17 +177,6 @@ const IntegrationSwiper = () => {
                   onSlideChange={(swiper) => handleSlideChange(swiper)}
                   onReachEnd={(swiper) => handleReachEnd(swiper)}
                   onReachBeginning={(swiper) => handleReachBeginning(swiper)}
-                  pagination={{
-                    el: '.slider_pagination.is-omnichannel',
-                    bulletClass: 'slider_bullet--omnichannel',
-                    bulletActiveClass: 'is-active',
-                    clickable: true,
-                    renderBullet: (index, className) => (
-                      <div id={`slide${index + 1}`} className={className} tabIndex="0">
-                        <div className="slider_bullet-text">{slideTitles[index]}</div>
-                      </div>
-                    ),
-                  }}
                   navigation={{
                     nextEl: '.slider_arrow.is-omnichannel.swiper-next',
                     prevEl: '.slider_arrow.is-omnichannel.swiper-prev',
@@ -214,52 +190,52 @@ const IntegrationSwiper = () => {
                   }}
                   className="swiper is-integration-text"
                 >
-                  <SwiperSlide role="listitem" aria-label="1 of 9">
+                  <SwiperSlide role="listitem" aria-label="1 of 8">
                     <div className="integration_text-wr text-color-white">
-                      <h3 className="text-eyebrow">Website</h3>
-                      <h4 className="heading-style-h4">Drive engagement and product discovery</h4>
+                      <h3 className="text-eyebrow">Social</h3>
+                      <h4 className="heading-style-h4">Amplify Your Brand’s Reach Through Social media</h4>
                       <p>
-                        Unify your brand story with immersive video experiences across your homepage, product pages, and landing pages to drive stronger engagement, higher conversion, and a consistent experience at every touchpoint.
+                        Distribute high-performing content across popular social platforms to maximize visibility, foster engagement, and drive additional traffic back to your owned channels.
                       </p>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide role="listitem" aria-label="2 of 9">
+                  <SwiperSlide role="listitem" aria-label="2 of 8">
                     <div className="integration_text-wr text-color-white">
                       <h3 className="text-eyebrow">Email Embed</h3>
-                      <h4 className="heading-style-h4">Boost email engagement with embedded video</h4>
+                      <h4 className="heading-style-h4">Nurture Customer Relationships with Email Marketing</h4>
                       <p>
-                        Increase click-through rates by adding curated video content directly into emails, making each message more impactful and interactive.
+                        Leverage personalized, purposeful, and high-impact email campaigns to connect with your customers, drive loyalty, and foster repeat purchases.
                       </p>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide role="listitem" aria-label="3 of 9">
+                  <SwiperSlide role="listitem" aria-label="3 of 8">
                     <div className="integration_text-wr text-color-white">
                       <h3 className="text-eyebrow">Mobile App</h3>
-                      <h4 className="heading-style-h4">Elevate your app experience with embedded videos</h4>
+                      <h4 className="heading-style-h4">Reach Customers Anytime, Anywhere</h4>
                       <p>
-                        Integrate video into your mobile app to captivate users and guide them through discovery, purchase, and loyalty journeys.
+                        Design a frictionless and conversion-focused experience for your mobile shoppers — from push notifications and SMS promotions to fully optimized mobile storefronts.
                       </p>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide role="listitem" aria-label="4 of 9">
+                  <SwiperSlide role="listitem" aria-label="4 of 8">
                     <div className="integration_text-wr text-color-white">
                       <h3 className="text-eyebrow">Packaging</h3>
-                      <h4 className="heading-style-h4">Connect physical products to digital storytelling</h4>
+                      <h4 className="heading-style-h4">Turn Packaging Into a Branding Opportunity</h4>
                       <p>
-                        Link packaging to video via QR codes, extending the brand experience post-purchase and turning every product into a content channel.
+                        Elevate your customer experience with packaging inserts, QR codes, samples, or promotions — adding an additional powerful marketing moment to every delivery.
                       </p>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide role="listitem" aria-label="5 of 9">
+                  <SwiperSlide role="listitem" aria-label="5 of 8">
                     <div className="integration_text-wr text-color-white">
                       <h3 className="text-eyebrow">SMS</h3>
-                      <h4 className="heading-style-h4">Make messages stand out with video</h4>
+                      <h4 className="heading-style-h4">Boost Conversion with Personalized SMS Marketing</h4>
                       <p>
-                        Add short-form video to SMS campaigns to create high-impact touchpoints that drive engagement and immediate action.
+                        Send tailored messages directly to your customers’ smartphones — delivering promotions, alerts, and incentives in real time.
                       </p>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide role="listitem" aria-label="6 of 9">
+                  {/* <SwiperSlide role="listitem" aria-label="6 of 9">
                     <div className="integration_text-wr text-color-white">
                       <h3 className="text-eyebrow">Social</h3>
                       <h4 className="heading-style-h4">Extend reach through social video syndication</h4>
@@ -267,31 +243,31 @@ const IntegrationSwiper = () => {
                         Distribute high-performing content across social platforms to amplify your message, spark engagement, and drive traffic back to owned channels.
                       </p>
                     </div>
-                  </SwiperSlide>
-                  <SwiperSlide role="listitem" aria-label="7 of 9">
+                  </SwiperSlide> */}
+                  <SwiperSlide role="listitem" aria-label="6 of 8">
                     <div className="integration_text-wr text-color-white">
                       <h3 className="text-eyebrow">In-store</h3>
-                      <h4 className="heading-style-h4">Bridge in-store moments with video</h4>
+                      <h4 className="heading-style-h4">Create Immersive In-Store Experiences</h4>
                       <p>
-                        Extend your digital strategy into the physical world with in-store videos that educate, inspire, and convert shoppers.
+                        Extend your digital strategy into physical spaces with in-store promotions, demos, and interactive displays — strengthening loyalty and deepening customer relationships.
                       </p>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide role="listitem" aria-label="8 of 9">
+                  <SwiperSlide role="listitem" aria-label="7 of 8">
                     <div className="integration_text-wr text-color-white">
-                      <h3 className="text-eyebrow">Publisher</h3>
+                      <h3 className="text-eyebrow">Publisher Partners</h3>
                       <h4 className="heading-style-h4">Extend your reach through publisher networks</h4>
                       <p>
                         Collaborate with publishers to expose your brand to new audiences, build trust through credible placements, and ultimately boost traffic and sales.
                       </p>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide role="listitem" aria-label="9 of 9">
+                  <SwiperSlide role="listitem" aria-label="8 of 8">
                     <div className="integration_text-wr text-color-white">
                       <h3 className="text-eyebrow">Retailer</h3>
-                      <h4 className="heading-style-h4">Seamlessly integrate video into retail channels</h4>
+                      <h4 className="heading-style-h4">Support Your Retail Partners for Mutual Success</h4>
                       <p>
-                        Embed video across retailer websites to drive discovery, education, and conversions directly at the point of sale.
+                        Provide marketing materials, co-promotions, and collaborative campaigns to empower your retail network — unlocking shared growth and loyalty.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -307,13 +283,14 @@ const IntegrationSwiper = () => {
                   </a>
                 </div>
 
-                <div className="slider_pagination is-omnichannel swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-vertical">
+                <div className="is-omnichannel swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-vertical">
                   {slideTitles.map((title, index) => (
                     <div
                       key={index}
                       id={`slide${index + 1}`}
-                      className="slider_bullet--omnichannel"
+                      className={`slider_bullet--omnichannel ${index === activeIndex ? 'is-active' : ''}`}
                       tabIndex="0"
+                      onClick={() => handleBulletClick(index)}
                     >
                       <div className="slider_bullet-text">{title}</div>
                     </div>
